@@ -9,3 +9,5 @@
 
 #define RGB_MATRIX_STARTUP_SPD 60
 
+#define TAPPING_TERM 200
+#define PERMISSIVE_HOLD
