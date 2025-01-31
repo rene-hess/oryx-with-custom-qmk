@@ -1,5 +1,3 @@
-#define DE_Y KC_Z
-#define DE_COLN S(KC_DOT)
 #define DE_Z KC_Y
 #define DE_EXLM S(KC_1)
 #define DE_LESS KC_NUBS
