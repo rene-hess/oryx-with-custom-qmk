@@ -32,8 +32,8 @@
 #define DE_DLR S(KC_4)
 #define DE_PIPE ALGR(KC_NUBS)
 #define DE_TILD ALGR(KC_RBRC)
-#define DE_ACUT KC_EQL
 #define DE_GRV S(KC_EQL)
+#define DE_ACUT KC_EQL
 #define DE_UE KC_LBRC
 #define DE_OE KC_SCLN
 #define DE_AE KC_QUOT
