@@ -59,12 +59,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     QK_LLCK,        KC_TRANSPARENT, KC_TRANSPARENT,                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT
   ),
 };
-const uint16_t PROGMEM combo0[] = { MT(MOD_LSFT, KC_A), MT(MOD_LCTL, KC_E), COMBO_END};
-const uint16_t PROGMEM combo1[] = { MT(MOD_RCTL, KC_N), MT(MOD_RSFT, KC_R), COMBO_END};
+const uint16_t PROGMEM combo0[] = { MT(MOD_LALT, KC_I), MT(MOD_LSFT, KC_A), COMBO_END};
+const uint16_t PROGMEM combo1[] = { MT(MOD_RSFT, KC_R), MT(MOD_LALT, KC_T), COMBO_END};
+const uint16_t PROGMEM combo2[] = { MT(MOD_LSFT, KC_A), MT(MOD_LCTL, KC_E), COMBO_END};
+const uint16_t PROGMEM combo3[] = { MT(MOD_RCTL, KC_N), MT(MOD_RSFT, KC_R), COMBO_END};
+const uint16_t PROGMEM combo4[] = { KC_L, MT(MOD_LCTL, KC_E), COMBO_END};
+const uint16_t PROGMEM combo5[] = { KC_G, MT(MOD_RCTL, KC_N), COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
     COMBO(combo0, OSM(MOD_LSFT)),
     COMBO(combo1, OSM(MOD_RSFT)),
+    COMBO(combo2, OSM(MOD_LCTL)),
+    COMBO(combo3, OSM(MOD_RCTL)),
+    COMBO(combo4, OSL(1)),
+    COMBO(combo5, OSL(2)),
 };
 
 extern rgb_config_t rgb_matrix_config;
