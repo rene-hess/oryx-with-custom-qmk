@@ -1,4 +1,3 @@
-#define DE_COLN S(KC_DOT)
 #define DE_RING S(KC_GRV)
 #define DE_CIRC KC_GRV
 #define DE_ACUT KC_EQL
