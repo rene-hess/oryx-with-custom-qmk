@@ -4,7 +4,6 @@
 #define MOON_LED_LEVEL LED_LEVEL
 #define ML_SAFE_RANGE SAFE_RANGE
 
-
 #include "features/achordion.h"
 
 void housekeeping_task_user(void) {
